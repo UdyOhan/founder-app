@@ -1,0 +1,69 @@
+/* Define the animation */
+@keyframes translateAndRotate1{
+    0% {
+      transform: translate(-10rem, -20rem) rotate(-60deg);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0) rotate(-6.5deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes translateAndRotate2{
+    0% {
+      transform: translate(10rem, -20rem) rotate(60deg);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0) rotate(10.95deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes translateAndRotate3{
+    0% {
+      transform: translate(-10rem, 20rem) rotate(30deg);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0) rotate(10.95deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes translateAndRotate4{
+    0% {
+      transform: translate(10rem, 20rem) rotate(30deg);
+      opacity: 0;
+    }
+    
+    100% {
+      transform: translateY(0) rotate(-15deg);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the items */
+  .pic1{
+    animation: translateAndRotate1 0.5s ease-out forwards;
+  }
+
+  /* Apply the animation to the items */
+  .pic2{
+    animation: translateAndRotate2 0.5s ease-out forwards;
+  }
+
+  /* Apply the animation to the items */
+  .pic3{
+    animation: translateAndRotate3 0.5s ease-out forwards;
+  }
+
+  /* Apply the animation to the items */
+  .pic4{
+    animation: translateAndRotate4 0.5s ease-out forwards;
+  }
+
