@@ -21,7 +21,7 @@ export default function MainLayout({
           <nav className="flex flex-row justify-between px-[min(5rem,4vw)] py-5 items-center">
               <div className="flex flex-row gap-[5px] items-center">
                   <Image src={MainLogo} alt="Company Logo" height={80} width={80}></Image>
-                  <h1 className="font-bold text-[1.75rem] invisible md:visible">Founder's Friday</h1>
+                  <h1 className="font-bold text-[1.75rem] invisible md:visible">Founder&apos;s Friday</h1>
               </div>
               <Navigation></Navigation>
           </nav>
@@ -34,7 +34,7 @@ export default function MainLayout({
           </div>
           <div className="w-9/12 self-center flex flex-col items-center gap-10">
             <h3 className="text-[2.75rem] font-bold text-center">
-             Want To Be A Part Of Abuja's Biggest Tech Community?
+             Want To Be A Part Of Abuja&apos;s Biggest Tech Community?
             </h3>
             <LinkButton className="px-4 py-8 flex flex-row items-center gap-[10px] group">
               <h3 className="text-[1.75rem] font-normal">Register For Our Next Event</h3>

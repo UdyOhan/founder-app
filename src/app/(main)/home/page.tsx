@@ -81,7 +81,7 @@ export default function HomePage() {
             <h3 className="font-semibold text-sm sm:text-base md:text-lg leading-5">Join our premier monthly meetup for startup founders and tech visionaries</h3>
             <h3 className=" text-3xl sm:text-4xl md:text-5xl lg:text-[3.125rem] font-bold text-[#5C00B3] mb-9">Connect, Collaborate, Innovate!</h3>
             <p className="text-xl md:text-2xl w-11/12 leading-9">Every last Friday of the month, we bring together the brightest minds in our local tech ecosystem.
-              Whether you're a seasoned entrepreneur or just starting your journey, Founder's Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.
+              Whether you&apos;re a seasoned entrepreneur or just starting your journey, Founder&apos;s Friday is your launchpad for new ideas, valuable connections, and game-changing opportunities.
             </p>
           </div>
           <div>
@@ -132,8 +132,8 @@ export default function HomePage() {
             <h2 className="font-bold hidden md:block text-[2.75rem]">Who Are We?</h2>
             <p className="text-[14px] text-wrap sm:text-2xl text-[#8E8E93] mb-5">Born from the vibrant startup ecosystem of Abuja, we recognized the need for a consistent, high-quality networking platform where founders,
               innovators, and tech enthusiasts could connect, share ideas, and foster collaboration.</p>
-            <p className="text-[14px] text-wrap sm:text-2xl text-[#8E8E93]">Join us at the next Founder's Friday and be part of Abuja's most dynamic startup community. Together, we're not
-              just sharing ideas—we're shaping the future of tech in our city.</p>
+            <p className="text-[14px] text-wrap sm:text-2xl text-[#8E8E93]">Join us at the next Founder&apos;s Friday and be part of Abuja&apos;s most dynamic startup community. Together, we&apos;re not
+              just sharing ideas—we&apos;re shaping the future of tech in our city.</p>
             <div className="flex flex-row w-full mt-5 mb-10 md:mt-[69px] md:mb-[76px] flex-shrink  gap-10">
               <LinkButton className="bg-purpleprime w-fit hover:bg-purple-700  rounded-[40px] pl-[10px]  py-[2px] md:py-4 md:px-[70px] group ">
                 <h3 className="text-white text-[16px] md:text-2xl ">Register</h3>
@@ -145,7 +145,7 @@ export default function HomePage() {
               </LinkButton>
             </div>
             <div></div>
-            <div className="text-lg md:text-2xl font-bold">Founder's Friday is more than just a meetup — it's a movement.</div>
+            <div className="text-lg md:text-2xl font-bold">Founder&apos;s Friday is more than just a meetup — it&apos;s a movement.</div>
           </div>
         </div>
       </div>

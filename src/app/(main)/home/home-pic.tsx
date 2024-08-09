@@ -14,7 +14,7 @@ export default function HomePic({src, height, width, className, imgClassName, te
                 alt="Founder's Friday" style={{height:`${height/16}em`, width:`${width/16}em`}}></Image>
             
             <div>
-                <p className={cn("text-white text-center", textClassName)}>Founder's Friday</p>
+                <p className={cn("text-white text-center", textClassName)}>Founder&apos;s Friday</p>
             </div>
         </div>
     )
